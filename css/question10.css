@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+  }
+  .main {
+    padding: 3.25rem;
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .header {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .basic-question {
+    font-size: 3rem;
+  }
+  
+  .article {
+    padding-top: 3.875rem;
+    margin: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+  }
+  .question {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .h2-question {
+    color: brown;
+    font-size: 2rem;
+  }
+  
+  .answer {
+    font-size: 1.375rem;
+  }
+  .strong {
+    color: rgb(40, 160, 3);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .para {
+    display: inline;
+  }

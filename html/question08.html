@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Questions-08</title>
+    <link rel="stylesheet" href="../css/question08.css" />
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1 class="basic-question">Basic Questions Answer</h1> <br><br>
+        <header class="header-nav">
+          <nav class="navbar">
+            <ul class="navbar-items">
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question01.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-1</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question02.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-2</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question03.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-3</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question04.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-4</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question05.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-5</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question06.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-6</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question07.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-7</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question08.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-8</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question09.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-9</a
+                  >
+                </button>
+              </li>
+              <li class="navbar-list">
+                <button class="main-btn">
+                  <a
+                    href="./question10.html"
+                    target="_blank"
+                    class="nav-link"
+                    >Q-10</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </header>
+      <article class="article">
+        <!-- Question-08  -->
+        <div class="question">
+          <h2 class="h2-question">
+            Q8: What are pseudo selectors? According to you explain 5 important
+            pseudo selectors.
+          </h2>
+          <div class="answer">
+            <strong class="strong">Answer : </strong>
+            <p class="para">
+              A pseudo-class is a keyword added to a CSS selector, prefixed by a
+              colon (:). The pseudo-class is a define a specific state or
+              condition.
+            </p>
+            <h3 class="example">Example :</h3>
+            <br /><br />
+            <button id="dialogBtn" class="dia-Btn">Show Profile</button>
+            <dialog id="myDialog" class="myDialog">
+              <form method="dialog">
+                <header class="pro-header">
+                  <h1 class="h1-profile">My Profile</h1>
+                  <img
+                    src="../images/rsz_1img_5196-3.jpg"
+                    alt=""
+                    class="pro-img" />
+                </header>
+                <section class="pro-section">
+                  <main class="pro-main">
+                    <div class="pro-cv">
+                      <h2 class="h2-pro-name">Name:</h2>
+                      <h2 class="h2-pro-dis" id="h2-pro">Naogaon</h2>
+                      <h2 class="h2-pro-cours">Cours Name:</h2>
+                      <h2 class="h2-pro-email">Email:</h2>
+                    </div>
+                    <button class="dia-Btn">Close Profile</button>
+                  </main>
+                </section>
+              </form>
+            </dialog>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script>
+      const dialogBtn = document.getElementById("dialogBtn");
+      const myDialog = document.getElementById("myDialog");
+
+      dialogBtn.addEventListener("click", () => myDialog.showModal());
+    </script>
+  </body>
+</html>

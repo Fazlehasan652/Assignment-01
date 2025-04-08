@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+  }
+  .main {
+    padding: 3.25rem;
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .header {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .basic-question {
+    font-size: 3rem;
+  }
+  
+  .article {
+    padding-top: 3.875rem;
+    margin: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+  }
+  .question {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .h2-question {
+    color: brown;
+    font-size: 2rem;
+  }
+  
+  .answer {
+    font-size: 1.375rem;
+  }
+  .strong {
+    color: rgb(40, 160, 3);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .para {
+    display: inline;
+  }
+/* Question 02 */
+  .hero-texture {
+    background-color: rgba(0, 195, 255, 0.733);
+    width: 1000px;
+    height: 820px;
+    align-items: center;
+    background-image: url("../images/Group-1.png"), url("../images/Group-2.png"),
+      url("../images/Group-0.png"), url("../images/Group-5.png"),
+      url("../images/Group-3.png"), url("../images/Group-4.png"),
+      url("../images/Group-6.png");
+    background-repeat: no-repeat;
+    background-position: left 0rem top 0rem, right 50rem top 0rem,
+      right 0rem bottom 15rem, left 25rem bottom 5rem, top 0rem right 0rem,
+      left 0rem bottom 0rem, right 10rem bottom 0rem;
+  }

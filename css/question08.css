@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+  }
+  .main {
+    padding: 3.25rem;
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .header {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .basic-question {
+    font-size: 3rem;
+  }
+  
+  .article {
+    padding-top: 3.875rem;
+    margin: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+  }
+  .question {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .h2-question {
+    color: brown;
+    font-size: 2rem;
+  }
+  
+  .answer {
+    font-size: 1.375rem;
+  }
+  .strong {
+    color: rgb(40, 160, 3);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .para {
+    display: inline;
+  }
+
+  /* Question No-08  */
+
+.h1-profile::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #8a2be2;
+  }
+  .h2-pro-name::after {
+    content: "Fazle Hasan";
+  }
+  .h2-pro-dis::before {
+    content: "Distric:";
+  }
+  .h2-pro-cours::after {
+    content: "MERN Stack Web Development Batch 04";
+  }
+  .h2-pro-email::after {
+    content: "fazlehasan.uu@gmail.com";
+  }
+  .h2-pro-email:hover {
+    color: crimson;
+  }
+  
+  .dia-Btn {
+    font-size: 24px;
+    padding: 15px 20px;
+    background-color: rgb(133, 3, 126);
+    border-style: none;
+    font-weight: 700;
+    margin: 20px;
+    border-radius: 5px;
+    color: #eee;
+  }
+  .dia-Btn:hover {
+    background-color: greenyellow;
+    color: rgb(2, 1, 58);
+  }
+  
+  dialog::backdrop {
+    background-color: lightgreen;
+  }
+  
+  .myDialog {
+    background-color: #2b99e2;
+    margin: 100px;
+    width: 50%;
+    height: 900px;
+    padding: 100px;
+    margin: 100px auto;
+  }
